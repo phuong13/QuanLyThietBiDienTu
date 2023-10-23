@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyThietBiDienTu
 {
-    public partial class DANH_MUC : Form
+    public partial class Home :TrangChu
     {
-        public DANH_MUC()
+        public Home()
         {
             InitializeComponent();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyThietBiDienTu
 {
-    public partial class Form1 : Form
+    public partial class Receipt : TrangChu
     {
-        public Form1()
+        public Receipt()
         {
             InitializeComponent();
+        }
+
+        private void Receipt_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
